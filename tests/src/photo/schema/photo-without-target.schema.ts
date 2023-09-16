@@ -1,4 +1,4 @@
-import { EntitySchema } from 'typeorm';
+import { EntitySchema } from '@jonasbpa/typeorm';
 import { Photo } from '../photo.entity';
 
 export const PhotoWithoutTargetSchema = new EntitySchema<Photo>({

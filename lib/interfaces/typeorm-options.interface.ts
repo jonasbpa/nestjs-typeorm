@@ -1,5 +1,5 @@
 import { ModuleMetadata, Provider, Type } from '@nestjs/common';
-import { DataSource, DataSourceOptions } from 'typeorm';
+import { DataSource, DataSourceOptions } from '@jonasbpa/typeorm';
 
 export type TypeOrmModuleOptions = {
   /**

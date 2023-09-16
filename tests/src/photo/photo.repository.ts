@@ -1,4 +1,4 @@
-import { EntityRepository, Repository } from 'typeorm';
+import { EntityRepository, Repository } from '@jonasbpa/typeorm';
 import { Photo } from './photo.entity';
 
 @EntityRepository(Photo)
